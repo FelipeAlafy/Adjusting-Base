@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rr ",
+    "rs ",
+    " s "
+  ],
+  "key": {
+    "r": {
+      "item": "adjustingbase:ruby"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "adjustingbase:ruby_axe",
+    "count": 1
+  }
+}

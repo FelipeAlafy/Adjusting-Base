@@ -18,7 +18,7 @@ public class AdjustingBase {
     public static final String MOD_ID = "adjustingbase";
 
     public AdjustingBase() {
-        LOGGER.info("Hello, Mhuuuuuaaaaaaa! see you later");
+        LOGGER.info("Mhuuuuuaaaaaaa! see you later");
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "adjustingbase:blocks/ruby_block"
+  }
+}
