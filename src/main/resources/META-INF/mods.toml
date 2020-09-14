@@ -1,6 +1,6 @@
 modLoader="javafml" #mandatory
 
-loaderVersion="[34,)" #mandatory
+loaderVersion="[32,)" #mandatory
 
 license="MIT License. See in project on github in license file."
 
@@ -10,7 +10,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="adjustingbase" #mandatory
 
-version="1.16.3-1.0.0" #mandatory
+version="1.16.1-1.0.0" #mandatory
 
 displayName="Ajusting Base" #mandatory
 
@@ -18,7 +18,7 @@ updateJSONURL="http://myurl.me/" #optional
 
 displayURL="https://github.com/FelipeAlafy/Adjusting-Base" #optional
 
-logoFile="examplemod.png" #optional
+logoFile="adjustingbase.png" #optional
 
 credits="Thanks for community of Adjusting Mods!" #optional
 
@@ -33,7 +33,7 @@ This mod adds, a news items in game.
 
     mandatory=true #mandatory
 
-    versionRange="[34,)" #mandatory
+    versionRange="[32,)" #mandatory
 
     ordering="NONE"
 

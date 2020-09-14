@@ -9,6 +9,25 @@
           "children": [
             {
               "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "adjustingbase:ruby_ore"
+            },
+            {
+              "type": "minecraft:item",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -23,27 +42,8 @@
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
                   "parameters": {
-                    "bonusMultiplier": 4
+                    "bonusMultiplier": 3
                   }
-                },
-                {
-                  "type": "minecraft:item",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "enchantments": [
-                          {
-                            "enchantment": "minecraft:silk_touch",
-                            "levels": {
-                              "min": 1
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ],
-                  "name": "adjustingbase:ruby_ore"
                 }
               ],
               "name": "adjustingbase:ruby"

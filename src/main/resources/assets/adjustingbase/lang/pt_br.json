@@ -1,6 +1,6 @@
 {
 "item.adjustingbase.ruby": "Rubi",
-"itemGroup.adjustingbaseTab": "adjustingbase",
+"itemGroup.adjustingbaseTab": "Adjusting Base",
 "block.adjustingbase.ruby_block": "Bloco de Rubi",
 "item.adjustingbase.ruby_sword": "Espada de Rubi",
 "item.adjustingbase.ruby_pickaxe": "Picareta de Rubi",
@@ -12,5 +12,5 @@
 "item.adjustingbase.ruby_leggings": "Calças de Rubi",
 "item.adjustingbase.ruby_boots": "Botas de Rubi",
 "item.adjustingbase.chup_chup": "Chup Chup",
-"item.adjustingbase.ruby_ore": "Minério De Rubi"
+"block.adjustingbase.ruby_ore": "Minério De Rubi"
 }
