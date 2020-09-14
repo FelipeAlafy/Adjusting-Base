@@ -32,7 +32,7 @@ public class AdjustingBase {
     private void doClientStuff(final FMLClientSetupEvent event) {    }
 
     //Set creative tab and icon.
-    public static final ItemGroup TAB = new ItemGroup("AdjustingBase"){
+    public static final ItemGroup TAB = new ItemGroup("adjustingbaseTab"){
         @Override
         public ItemStack createIcon() {
             return new ItemStack(RegistryHandler.RUBY.get());

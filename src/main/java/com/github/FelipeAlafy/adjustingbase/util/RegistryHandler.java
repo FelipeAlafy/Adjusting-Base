@@ -4,6 +4,7 @@ import com.github.FelipeAlafy.adjustingbase.AdjustingBase;
 import com.github.FelipeAlafy.adjustingbase.armor.ModArmorMaterial;
 import com.github.FelipeAlafy.adjustingbase.blocks.BlockItemBase;
 import com.github.FelipeAlafy.adjustingbase.blocks.RubyBlock;
+import com.github.FelipeAlafy.adjustingbase.blocks.RubyOre;
 import com.github.FelipeAlafy.adjustingbase.items.ChupChup;
 import com.github.FelipeAlafy.adjustingbase.items.ItemBase;
 import com.github.FelipeAlafy.adjustingbase.tools.ModItemTier;
@@ -15,6 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+@SuppressWarnings("unused")
 public class RegistryHandler {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdjustingBase.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AdjustingBase.MOD_ID);
@@ -64,7 +66,9 @@ public class RegistryHandler {
 
     //Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
 
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () ->  new BlockItemBase(RUBY_ORE.get()));
 }
