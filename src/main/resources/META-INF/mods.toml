@@ -25,7 +25,7 @@ credits="Thanks for community of Adjusting Mods!" #optional
 authors="Felipe Alafy" #optional
 
 description='''
-This mod adds, a news items in game.
+This mod adds, a new items in game.
 '''
 [[dependencies.examplemod]] #optional
 
