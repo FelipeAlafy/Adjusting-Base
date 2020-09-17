@@ -12,5 +12,12 @@
 "item.adjustingbase.ruby_leggings": "Calças de Rubi",
 "item.adjustingbase.ruby_boots": "Botas de Rubi",
 "item.adjustingbase.chup_chup": "Chup Chup",
-"block.adjustingbase.ruby_ore": "Minério De Rubi"
+"block.adjustingbase.ruby_ore": "Minério De Rubi",
+"item.adjustingbase.bailey": "Socalho",
+"item.adjustingbase.silicon": "Silício",
+"item.adjustingbase.sieve": "Peneira",
+"item.adjustingbase.tempered_glass_raw": "Vidro Temperado Bruto",
+"block.adjustingbase.tempered_glass": "Vidro Temperado",
+"item.adjustingbase.machine_frame": "Chassi de máquina",
+"item.adjustingbase.iron_dust": "Ferro Pulverizado"
 }
