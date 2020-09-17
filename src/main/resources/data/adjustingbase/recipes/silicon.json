@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sand"
+    },
+    "l": {
+      "item": "adjustingbase:sieve"
+    }
+  },
+  "result": {
+    "item": "adjustingbase:silicon",
+    "count": 2
+  }
+}
