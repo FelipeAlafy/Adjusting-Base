@@ -22,5 +22,8 @@
 "item.adjustingbase.iron_dust": "Ferro Pulverizado",
 "block.adjustingbase.copper_ore": "Minério de Cobre",
 "item.adjustingbase.copper_dust": "Cobre Pulverizado",
-"item.adjustingbase.copper_ingot": "Lingote de cobre"
+"item.adjustingbase.copper_ingot": "Lingote de cobre",
+"block.adjustingbase.tin_ore": "Minério de Estanho",
+"item.adjustingbase.tin_dust": "Estanho pulverizado",
+"item.adjustingbase.tin_ingot": "Lingote de Estanho"
 }

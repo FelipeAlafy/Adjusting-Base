@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "adjustingbase:tin_ore"
+    },
+    {
+      "item": "adjustingbase:bailey"
+    }
+  ],
+  "result":
+  {
+    "item": "adjustingbase:tin_dust",
+    "count": 2
+  }
+}

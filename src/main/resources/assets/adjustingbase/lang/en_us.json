@@ -22,5 +22,8 @@
   "item.adjustingbase.iron_dust": "Iron Dust",
   "block.adjustingbase.copper_ore": "Copper Ore",
   "item.adjustingbase.copper_dust": "Copper Dust",
-  "item.adjustingbase.copper_ingot": "Copper Ingot"
+  "item.adjustingbase.copper_ingot": "Copper Ingot",
+  "block.adjustingbase.tin_ore": "Tin Ore",
+  "item.adjustingbase.tin_dust": "Tin Dust",
+  "item.adjustingbase.tin_ingot": "Tin Ingot"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "adjustingbase:tin_dust"
+  },
+  "result": "adjustingbase:tin_ingot",
+  "experience": 0.0,
+  "cookingtime": 150
+}

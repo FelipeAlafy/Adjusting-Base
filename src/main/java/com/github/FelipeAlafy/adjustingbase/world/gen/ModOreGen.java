@@ -26,16 +26,17 @@ public class ModOreGen {
     @SubscribeEvent
     public static void generateOres(FMLLoadCompleteEvent event) {
         for (Biome biome : ForgeRegistries.BIOMES) {
-
-            //Nether Generation
             if (biome.getCategory() == Biome.Category.NETHER) {
-                //End Generation
-            } else if (biome.getCategory() == Biome.Category.THEEND) {
-                //World Generation
-            } else {
-                genOre(biome, 15, 8, 5, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 6);
-                genOre(biome, 15, 8, 5, 60, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.COPPER_ORE.get().getDefaultState(), 6);
+                //Nether
 
+            } else if (biome.getCategory() == Biome.Category.THEEND) {
+                //The End
+
+            } else {
+                //Overword
+                genOre(biome, 10, 8, 5, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 6);
+                genOre(biome, 12, 10, 5, 60, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.COPPER_ORE.get().getDefaultState(), 6);
+                genOre(biome, 12, 10, 5, 55, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.TIN_ORE.get().getDefaultState(), 3);
             }
         }
     }
