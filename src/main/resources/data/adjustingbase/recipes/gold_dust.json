@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ore"
+    },
+    {
+      "item": "adjustingbase:bailey"
+    }
+  ],
+  "result":
+  {
+    "item": "adjustingbase:gold_dust",
+    "count": 2
+  }
+}
