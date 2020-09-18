@@ -40,6 +40,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", ItemBase::new);
     public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", ItemBase::new);
     public static final RegistryObject<Item> TIN_DUST = ITEMS.register("tin_dust", ItemBase::new);
+    public static final RegistryObject<Item> GOLD_DUST = ITEMS.register("gold_dust", ItemBase::new);
 
     //Food
     public static final RegistryObject<ChupChup> CHUP_CHUP = ITEMS.register("chup_chup", ChupChup::new);
