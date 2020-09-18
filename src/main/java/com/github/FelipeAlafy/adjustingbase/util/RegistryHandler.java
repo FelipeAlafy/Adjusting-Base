@@ -2,10 +2,7 @@ package com.github.FelipeAlafy.adjustingbase.util;
 
 import com.github.FelipeAlafy.adjustingbase.AdjustingBase;
 import com.github.FelipeAlafy.adjustingbase.armor.ModArmorMaterial;
-import com.github.FelipeAlafy.adjustingbase.blocks.BlockItemBase;
-import com.github.FelipeAlafy.adjustingbase.blocks.RubyBlock;
-import com.github.FelipeAlafy.adjustingbase.blocks.RubyOre;
-import com.github.FelipeAlafy.adjustingbase.blocks.TemperedGlass;
+import com.github.FelipeAlafy.adjustingbase.blocks.*;
 import com.github.FelipeAlafy.adjustingbase.items.ChupChup;
 import com.github.FelipeAlafy.adjustingbase.items.ItemBailey;
 import com.github.FelipeAlafy.adjustingbase.items.ItemBase;
@@ -36,9 +33,11 @@ public class RegistryHandler {
     public static final RegistryObject<Item> TEMPERED_GLASS_RAW = ITEMS.register("tempered_glass_raw", ItemBase::new);
     public static final RegistryObject<Item> SIEVE = ITEMS.register("sieve", ItemSieve::new);
     public static final RegistryObject<Item> SILICON = ITEMS.register("silicon", ItemBase::new);
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", ItemBase::new);
 
     //Dusts
     public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", ItemBase::new);
+    public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", ItemBase::new);
 
     //Food
     public static final RegistryObject<ChupChup> CHUP_CHUP = ITEMS.register("chup_chup", ChupChup::new);
@@ -77,10 +76,12 @@ public class RegistryHandler {
     //Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
     public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
+    public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", CopperOre::new);
     public static final RegistryObject<Block> TEMPERED_GLASS = BLOCKS.register("tempered_glass", TemperedGlass::new);
 
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
     public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () ->  new BlockItemBase(RUBY_ORE.get()));
     public static final RegistryObject<Item> TEMPERED_GLASS_ITEM = ITEMS.register("tempered_glass", () -> new BlockItemBase(TEMPERED_GLASS.get()));
+    public static final RegistryObject<Item> COPPER_ORE_ITEM = ITEMS.register("copper_ore", () -> new BlockItemBase(COPPER_ORE.get()));
 }

@@ -19,5 +19,8 @@
 "item.adjustingbase.tempered_glass_raw": "Vidro Temperado Bruto",
 "block.adjustingbase.tempered_glass": "Vidro Temperado",
 "item.adjustingbase.machine_frame": "Chassi de máquina",
-"item.adjustingbase.iron_dust": "Ferro Pulverizado"
+"item.adjustingbase.iron_dust": "Ferro Pulverizado",
+"block.adjustingbase.copper_ore": "Minério de Cobre",
+"item.adjustingbase.copper_dust": "Cobre Pulverizado",
+"item.adjustingbase.copper_ingot": "Lingote de cobre"
 }
