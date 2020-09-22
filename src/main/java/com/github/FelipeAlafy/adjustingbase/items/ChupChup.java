@@ -19,14 +19,4 @@ public class ChupChup extends Item {
                         .build())
         );
     }
-
-    @Override
-    public boolean hasContainerItem(ItemStack itemStack){
-        return true;
-    }
-
-    @Override
-    public ItemStack getContainerItem(ItemStack itemStack){
-        return itemStack.copy();
-    }
 }

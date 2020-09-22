@@ -34,7 +34,7 @@ public class ModOreGen {
 
             } else {
                 //Overword
-                genOre(biome, 10, 8, 5, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 6);
+                genOre(biome, 4, 8, 5, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 6);
                 genOre(biome, 12, 10, 5, 60, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.COPPER_ORE.get().getDefaultState(), 6);
                 genOre(biome, 12, 10, 5, 55, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.TIN_ORE.get().getDefaultState(), 3);
             }
