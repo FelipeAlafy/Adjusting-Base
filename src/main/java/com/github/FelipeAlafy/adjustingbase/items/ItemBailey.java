@@ -6,7 +6,7 @@ import net.minecraft.item.ItemStack;
 
 public class ItemBailey extends Item {
     public ItemBailey() {
-        super((new Item.Properties().setNoRepair().group(AdjustingBase.TAB)));
+        super((new Item.Properties().maxStackSize(1).setNoRepair().group(AdjustingBase.TAB)));
     }
 
     @Override

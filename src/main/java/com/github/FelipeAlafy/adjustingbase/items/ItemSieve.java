@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 public class ItemSieve extends Item {
     public ItemSieve() {
         super(new Item.Properties()
-        .group(AdjustingBase.TAB)
+        .group(AdjustingBase.TAB).maxStackSize(1)
         .setNoRepair());
     }
 
