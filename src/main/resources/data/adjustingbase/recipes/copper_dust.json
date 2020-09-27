@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "adjustingbase:copper_ore"
+      "tag": "forge:ores/copper"
     },
     {
       "item": "adjustingbase:bailey"

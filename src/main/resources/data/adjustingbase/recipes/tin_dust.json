@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "adjustingbase:tin_ore"
+      "tag": "forge:ores/tin"
     },
     {
       "item": "adjustingbase:bailey"
