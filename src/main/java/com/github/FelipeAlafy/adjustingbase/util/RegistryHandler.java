@@ -16,6 +16,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import javax.imageio.spi.RegisterableService;
+
 @SuppressWarnings("unused")
 public class RegistryHandler {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdjustingBase.MOD_ID);
@@ -42,6 +44,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
     public static final RegistryObject<Item> REINFORCED_STEEL_INGOT = ITEMS.register("reinforced_steel_ingot", ItemBase::new);
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", ItemBase::new);
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", ItemBase::new);
 
     //Dusts
     public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", ItemBase::new);
@@ -55,6 +58,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust", ItemBase::new);
     public static final RegistryObject<Item> REINFORCED_STEEL_DUST = ITEMS.register("reinforced_steel_dust", ItemBase::new);
     public static final RegistryObject<Item> SILVER_DUST = ITEMS.register("silver_dust", ItemBase::new);
+    public static final RegistryObject<Item> BRONZE_DUST = ITEMS.register("bronze_dust", ItemBase::new);
 
     //Food
     public static final RegistryObject<ChupChup> CHUP_CHUP = ITEMS.register("chup_chup", ChupChup::new);

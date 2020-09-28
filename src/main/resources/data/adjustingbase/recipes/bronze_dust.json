@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cc ",
+    "ct ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:dusts/copper"
+    },
+    "t": {
+      "tag": "forge:dusts/tin"
+    }
+  },
+  "result": {
+    "tag": "forge:dusts/bronze",
+    "count": 4
+  }
+}
