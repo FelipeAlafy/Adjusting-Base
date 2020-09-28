@@ -41,6 +41,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot", ItemBase::new);
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
     public static final RegistryObject<Item> REINFORCED_STEEL_INGOT = ITEMS.register("reinforced_steel_ingot", ItemBase::new);
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", ItemBase::new);
 
     //Dusts
     public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", ItemBase::new);
@@ -53,6 +54,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust", ItemBase::new);
     public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust", ItemBase::new);
     public static final RegistryObject<Item> REINFORCED_STEEL_DUST = ITEMS.register("reinforced_steel_dust", ItemBase::new);
+    public static final RegistryObject<Item> SILVER_DUST = ITEMS.register("silver_dust", ItemBase::new);
 
     //Food
     public static final RegistryObject<ChupChup> CHUP_CHUP = ITEMS.register("chup_chup", ChupChup::new);
@@ -94,6 +96,8 @@ public class RegistryHandler {
     public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", CopperOre::new);
     public static final RegistryObject<Block> TEMPERED_GLASS = BLOCKS.register("tempered_glass", TemperedGlass::new);
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore", TinOre::new);
+    public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore", SilverOre::new);
+    public static final RegistryObject<Block> ALUMINUM_ORE = BLOCKS.register("aluminum_ore", AluminumOre::new);
 
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
@@ -101,4 +105,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item> TEMPERED_GLASS_ITEM = ITEMS.register("tempered_glass", () -> new BlockItemBase(TEMPERED_GLASS.get()));
     public static final RegistryObject<Item> COPPER_ORE_ITEM = ITEMS.register("copper_ore", () -> new BlockItemBase(COPPER_ORE.get()));
     public static final RegistryObject<Item> TIN_ORE_ITEM = ITEMS.register("tin_ore", () -> new BlockItemBase(TIN_ORE.get()));
+    public static final RegistryObject<Item> SILVER_ORE_ITEM = ITEMS.register("silver_ore", () -> new BlockItemBase(SILVER_ORE.get()));
+    public static final RegistryObject<Item> ALUMINUM_ORE_ITEM = ITEMS.register("aluminum_ore", () -> new BlockItemBase(ALUMINUM_ORE.get()));
 }

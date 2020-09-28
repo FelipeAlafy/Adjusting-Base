@@ -38,5 +38,11 @@
   "item.adjustingbase.mixed_dust": "Mixed Dust",
   "item.adjustingbase.obsidian_dust": "Obsidian Dust",
   "item.adjustingbase.reinforced_steel_dust": "Reinforced Steel Dust",
-  "item.adjustingbase.steel_dust": "Steel Dust"
+  "item.adjustingbase.steel_dust": "Steel Dust",
+  "item.adjustingbase.aluminum_ore": "Aluminum Ore",
+  "block.adjustingbase.aluminum_ore": "Aluminum Ore",
+  "item.adjustingbase.silver_ore": "Silver Ore",
+  "block.adjustingbase.silver_ore": "Silver Ore",
+  "item.adjustingbase.silver_ingot": "Silver Ingot",
+  "item.adjustingbase.silver_dust": "Silver Dust"
 }

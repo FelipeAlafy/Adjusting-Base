@@ -38,6 +38,8 @@ public class ModOreGen {
                 genOre(biome, 4, 8, 5, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 3, OregenConfig.gen_ruby.get());
                 genOre(biome, 12, 10, 5, 60, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.COPPER_ORE.get().getDefaultState(), 7,OregenConfig.gen_copper.get());
                 genOre(biome, 12, 10, 5, 55, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.TIN_ORE.get().getDefaultState(), 7, OregenConfig.gen_tin.get());
+                genOre(biome, 8, 7, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.SILVER_ORE.get().getDefaultState(), 4, OregenConfig.gen_silver.get());
+                genOre(biome, 8, 25, 1, 60, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.ALUMINUM_ORE.get().getDefaultState(), 8, OregenConfig.gen_aluminum.get());
             }
         }
     }
