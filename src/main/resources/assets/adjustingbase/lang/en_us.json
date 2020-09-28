@@ -26,5 +26,17 @@
   "block.adjustingbase.tin_ore": "Tin Ore",
   "item.adjustingbase.tin_dust": "Tin Dust",
   "item.adjustingbase.tin_ingot": "Tin Ingot",
-  "item.adjustingbase.gold_dust": "Gold Dust"
+  "item.adjustingbase.gold_dust": "Gold Dust",
+  "item.adjustingbase.aluminum_ingot": "Aluminum Ingot",
+  "item.adjustingbase.electrum_ingot": "Electrum Ingot",
+  "item.adjustingbase.mixed_ingot": "Mixed Ingot",
+  "item.adjustingbase.obsidian_ingot": "Obsidian Ingot",
+  "item.adjustingbase.reinforced_steel_ingot": "Reinforced Steel Ingot",
+  "item.adjustingbase.steel_ingot": "Steel Ingot",
+  "item.adjustingbase.aluminum_dust": "Aluminum Dust",
+  "item.adjustingbase.electrum_dust": "Electrum Dust",
+  "item.adjustingbase.mixed_dust": "Mixed Dust",
+  "item.adjustingbase.obsidian_dust": "Obsidian Dust",
+  "item.adjustingbase.reinforced_steel_dust": "Reinforced Steel Dust",
+  "item.adjustingbase.steel_dust": "Steel Dust"
 }

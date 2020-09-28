@@ -26,5 +26,17 @@
 "block.adjustingbase.tin_ore": "Minério de Estanho",
 "item.adjustingbase.tin_dust": "Estanho pulverizado",
 "item.adjustingbase.tin_ingot": "Lingote de Estanho",
-"item.adjustingbase.gold_dust": "Ouro Pulverizado"
+"item.adjustingbase.gold_dust": "Ouro Pulverizado",
+"item.adjustingbase.aluminum_ingot": "Lingote de Alumínio",
+"item.adjustingbase.electrum_ingot": "Lingote de Electrum",
+"item.adjustingbase.mixed_ingot": "Lingote Misturado",
+"item.adjustingbase.obsidian_ingot": "Lingote de Obsidiana",
+"item.adjustingbase.reinforced_steel_ingot": "Lingote de Aço Reforçado",
+"item.adjustingbase.steel_ingot": "Lingote de Aço",
+"item.adjustingbase.aluminum_dust": "Alumínio Pulverizado",
+"item.adjustingbase.electrum_dust": "Electrum Pulverizado",
+"item.adjustingbase.mixed_dust": "Lingote Misturado",
+"item.adjustingbase.obsidian_dust": "Obsidiana Pulverizado",
+"item.adjustingbase.reinforced_steel_dust": "Aço Reforçado Pulverizado",
+"item.adjustingbase.steel_dust": "Aço Pulverizado"
 }
