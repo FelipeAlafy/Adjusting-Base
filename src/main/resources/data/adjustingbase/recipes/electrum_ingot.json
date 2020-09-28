@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/silver"
+    },
+    {
+      "item": "forge:dusts/gold"
+    }
+  ],
+  "result":
+  {
+    "item": "forge:dusts/electrum",
+    "count": 2
+  }
+}
