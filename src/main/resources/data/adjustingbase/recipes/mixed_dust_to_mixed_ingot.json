@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "adjustingbase:mixed_dust"
+  },
+  "result": "adjustingbase:mixed_ingot",
+  "experience": 2.0,
+  "cookingtime": 150
+}
