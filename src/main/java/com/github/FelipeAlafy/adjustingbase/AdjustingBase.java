@@ -2,10 +2,12 @@ package com.github.FelipeAlafy.adjustingbase;
 
 
 import com.github.FelipeAlafy.adjustingbase.config.Config;
+import com.github.FelipeAlafy.adjustingbase.util.ContainerTypes;
 import com.github.FelipeAlafy.adjustingbase.util.RegistryHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -28,6 +30,8 @@ public class AdjustingBase {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, Config.server_config);
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.client_config);
 
@@ -35,6 +39,7 @@ public class AdjustingBase {
         Config.loadConfig(Config.server_config, FMLPaths.CONFIGDIR.get().resolve("adjustingbase-server.toml").toString());
 
         RegistryHandler.init();
+        ContainerTypes.CONTAINER_TYPES.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
