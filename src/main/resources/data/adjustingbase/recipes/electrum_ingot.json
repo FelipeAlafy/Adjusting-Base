@@ -5,12 +5,12 @@
       "tag": "forge:dusts/silver"
     },
     {
-      "tag": "forge:dusts/gold"
+      "item": "forge:dusts/gold"
     }
   ],
   "result":
   {
-    "item": "adjustingbase:electrum_dust",
+    "item": "forge:dusts/electrum",
     "count": 2
   }
 }

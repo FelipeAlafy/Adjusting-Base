@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "adjustingbase:obsidian_dust"
-  },
-  "result": "adjustingbase:obsidian_ingot",
-  "experience": 2.0,
-  "cookingtime": 150
-}

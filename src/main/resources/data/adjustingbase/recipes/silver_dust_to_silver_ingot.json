@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "adjustingbase:silver_dust"
+    "item": "adjustingbase:aluminum_dust"
   },
-  "result": "adjustingbase:silver_ingot",
+  "result": "adjustingbase:aluminum_ingot",
   "experience": 2.0,
   "cookingtime": 150
 }
