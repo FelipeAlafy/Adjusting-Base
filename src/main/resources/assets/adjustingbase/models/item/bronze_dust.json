@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "adjustingbase:dusts/bronze_dust"
+    "layer0": "adjustingbase:items/bronze_dust"
   }
 }

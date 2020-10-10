@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "tag": "forge:dusts/bronze"
-  },
-  "result": "adjustingbase:bronze_ingot",
-  "experience": 2.0,
-  "cookingtime": 150
-}

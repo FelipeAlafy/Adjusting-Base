@@ -14,7 +14,7 @@
     }
   },
   "result": {
-    "item": "adjustingbase:bronze_dust",
+    "tag": "forge:dusts/bronze",
     "count": 4
   }
 }
