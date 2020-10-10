@@ -44,5 +44,7 @@
   "item.adjustingbase.silver_ore": "Silver Ore",
   "block.adjustingbase.silver_ore": "Silver Ore",
   "item.adjustingbase.silver_ingot": "Silver Ingot",
-  "item.adjustingbase.silver_dust": "Silver Dust"
+  "item.adjustingbase.silver_dust": "Silver Dust",
+  "item.adjustingbase.bronze_ingot": "Bronze Ingot",
+  "item.adjustingbase.bronze_dust": "Bronze Dust"
 }

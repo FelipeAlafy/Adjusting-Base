@@ -44,5 +44,7 @@
   "item.adjustingbase.silver_ore": "Minério de Prata",
   "block.adjustingbase.silver_ore": "Minério de Prata",
   "item.adjustingbase.silver_ingot": "Lingote de Prata",
-  "item.adjustingbase.silver_dust": "Prata Pulverizado"
+  "item.adjustingbase.silver_dust": "Prata Pulverizado",
+  "item.adjustingbase.bronze_ingot": "Lingote de Bronze",
+  "item.adjustingbase.bronze_dust": "Bronze Pulverizado"
 }

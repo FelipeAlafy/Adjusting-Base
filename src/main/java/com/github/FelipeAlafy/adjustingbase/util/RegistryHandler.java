@@ -16,12 +16,14 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import javax.imageio.spi.RegisterableService;
+
 @SuppressWarnings("unused")
 public class RegistryHandler {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdjustingBase.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AdjustingBase.MOD_ID);
 
-    public static void init(){
+    public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
@@ -42,6 +44,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
     public static final RegistryObject<Item> REINFORCED_STEEL_INGOT = ITEMS.register("reinforced_steel_ingot", ItemBase::new);
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", ItemBase::new);
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", ItemBase::new);
 
     //Dusts
     public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust", ItemBase::new);
@@ -55,6 +58,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust", ItemBase::new);
     public static final RegistryObject<Item> REINFORCED_STEEL_DUST = ITEMS.register("reinforced_steel_dust", ItemBase::new);
     public static final RegistryObject<Item> SILVER_DUST = ITEMS.register("silver_dust", ItemBase::new);
+    public static final RegistryObject<Item> BRONZE_DUST = ITEMS.register("bronze_dust", ItemBase::new);
 
     //Food
     public static final RegistryObject<ChupChup> CHUP_CHUP = ITEMS.register("chup_chup", ChupChup::new);
@@ -75,7 +79,7 @@ public class RegistryHandler {
             new ShovelItem(ModItemTier.RUBY, 0, 2.0F, new Item.Properties().group(AdjustingBase.TAB)));
     //Ruby Hoe
     public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () ->
-            new HoeItem(ModItemTier.RUBY, -3,-1.0F, new Item.Properties().group(AdjustingBase.TAB)));
+            new HoeItem(ModItemTier.RUBY, -3, -1.0F, new Item.Properties().group(AdjustingBase.TAB)));
 
     //Armor
     public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () ->
@@ -101,7 +105,7 @@ public class RegistryHandler {
 
     //Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
-    public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () ->  new BlockItemBase(RUBY_ORE.get()));
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE.get()));
     public static final RegistryObject<Item> TEMPERED_GLASS_ITEM = ITEMS.register("tempered_glass", () -> new BlockItemBase(TEMPERED_GLASS.get()));
     public static final RegistryObject<Item> COPPER_ORE_ITEM = ITEMS.register("copper_ore", () -> new BlockItemBase(COPPER_ORE.get()));
     public static final RegistryObject<Item> TIN_ORE_ITEM = ITEMS.register("tin_ore", () -> new BlockItemBase(TIN_ORE.get()));

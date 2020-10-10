@@ -1,14 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "sss",
-    "ccc",
-    "ttt"
+    "cc ",
+    "ct ",
+    "   "
   ],
   "key": {
-    "s": {
-      "tag": "forge:dusts/silver"
-    },
     "c": {
       "tag": "forge:dusts/copper"
     },
@@ -17,7 +14,7 @@
     }
   },
   "result": {
-    "item": "adjustingbase:mixed_dust",
-    "count": 3
+    "tag": "forge:dusts/bronze",
+    "count": 4
   }
 }

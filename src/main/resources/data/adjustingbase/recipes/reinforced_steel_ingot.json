@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "adjustingbase:reinforced_steel_dust"
-  },
-  "result": "adjustingbase:reinforced_steel_ingot",
-  "experience": 0.0,
-  "cookingtime": 500
-}
