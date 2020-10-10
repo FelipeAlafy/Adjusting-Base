@@ -2,7 +2,6 @@ package com.github.FelipeAlafy.adjustingbase;
 
 
 import com.github.FelipeAlafy.adjustingbase.config.Config;
-import com.github.FelipeAlafy.adjustingbase.util.ContainerTypes;
 import com.github.FelipeAlafy.adjustingbase.util.RegistryHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -39,7 +38,6 @@ public class AdjustingBase {
         Config.loadConfig(Config.server_config, FMLPaths.CONFIGDIR.get().resolve("adjustingbase-server.toml").toString());
 
         RegistryHandler.init();
-        ContainerTypes.CONTAINER_TYPES.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
