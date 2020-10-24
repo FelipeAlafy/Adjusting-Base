@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ores/copper"
+    },
+    {
+      "item": "adjustingbase:bailey"
+    }
+  ],
+  "result":
+  {
+    "item": "adjustingbase:copper_dust",
+    "count": 2
+  }
+}

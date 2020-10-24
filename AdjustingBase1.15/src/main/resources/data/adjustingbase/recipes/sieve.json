@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "sls",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "l": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "adjustingbase:sieve",
+    "count": 1
+  }
+}

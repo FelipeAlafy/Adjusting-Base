@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "r r",
+    "rrr",
+    "rrr"
+  ],
+  "key": {
+    "r": {
+      "item": "adjustingbase:ruby"
+    }
+  },
+  "result": {
+    "item": "adjustingbase:ruby_chestplate",
+    "count": 1
+  }
+}

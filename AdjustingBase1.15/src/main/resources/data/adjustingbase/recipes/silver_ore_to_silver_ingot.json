@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "adjustingbase:silver_ore"
+  },
+  "result": "adjustingbase:silver_ingot",
+  "experience": 3.0,
+  "cookingtime": 150
+}

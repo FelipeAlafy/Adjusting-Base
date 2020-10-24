@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "scs",
+    "bcb",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:milk_bucket"
+    },
+    "c": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "adjustingbase:chup_chup",
+    "count": 32
+  }
+}

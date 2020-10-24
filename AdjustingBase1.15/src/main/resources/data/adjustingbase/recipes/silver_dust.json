@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ores/silver"
+    },
+    {
+      "item": "adjustingbase:bailey"
+    }
+  ],
+  "result":
+  {
+    "item": "adjustingbase:silver_dust",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sg ",
+    "gs ",
+    "   "
+  ],
+  "key": {
+    "s": {
+      "item": "adjustingbase:silicon"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "adjustingbase:tempered_glass_raw",
+    "count": 1
+  }
+}

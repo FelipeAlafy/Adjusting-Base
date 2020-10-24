@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  s",
+    "psp",
+    " l "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "p": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "l": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "adjustingbase:bailey",
+    "count": 1
+  }
+}
