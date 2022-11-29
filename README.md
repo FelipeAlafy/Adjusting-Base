@@ -1,4 +1,4 @@
-# Adjusting-Base - Deprecated
+# Adjusting-Base
 Adjusting mods add custom functions to the Minecraft Java Edition game. Adjusting-Base a base for other Adjusting version mods.
 
 I would like to give suggestions for the project. So leave a comment on the [Curse Forge](https://www.curseforge.com/minecraft/mc-mods/adjusting-base), if your suggestion is approved we will 
